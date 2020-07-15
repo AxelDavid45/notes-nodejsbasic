@@ -31,5 +31,4 @@ deleteFile(`${__dirname}/tmpFile.txt`, (err) => {
     err != null || err != undefined ? console.error(err.message) : console.log('File deleted');
 });
 
-
 console.log('Continue');
